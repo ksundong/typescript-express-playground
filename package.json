@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ksundong/typescript-express-playground/issues"
   },
-  "homepage": "https://github.com/ksundong/typescript-express-playground#readme"
+  "homepage": "https://github.com/ksundong/typescript-express-playground#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
