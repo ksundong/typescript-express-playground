@@ -3,7 +3,10 @@ import express from 'express';
 // node_modules/.bin/ts-node to run ts file
 const app = express();
 const PORT = 7000;
-app.get('/', (req, res) => res.send('Express + Typescript Server'));
+app.get('/', (req, res) => {
+  res.send('Express + Typescript Server');
+  console.log('hello');
+});
 app.listen(PORT, () => {
   console.log(`⚡️[server]: Server is running at https://localhost:${PORT}`);
 });
